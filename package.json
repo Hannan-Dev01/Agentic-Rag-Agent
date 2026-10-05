@@ -1,0 +1,47 @@
+{
+  "name": "rag-agent",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "packageManager": "yarn@1.22.22",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.49",
+    "@langchain/core": "^0.3.68",
+    "@langchain/langgraph": "^0.2.44",
+    "@langchain/openai": "^0.6.0",
+    "@langchain/pinecone": "^0.2.0",
+    "@langchain/textsplitters": "^0.1.0",
+    "@pinecone-database/pinecone": "^5.0.2",
+    "docx": "^9.8.1",
+    "langchain": "^0.3.37",
+    "mammoth": "1.9.0",
+    "next": "^15.5.4",
+    "pdf-parse": "1.1.1",
+    "pdfkit": "^0.20.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.7",
+    "@types/pdf-parse": "1.1.4",
+    "@types/pdfkit": "^0.17.6",
+    "@types/react": "19.0.7",
+    "@types/react-dom": "19.0.3",
+    "autoprefixer": "10.4.20",
+    "eslint": "9.18.0",
+    "eslint-config-next": "^15.5.4",
+    "postcss": "8.5.1",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.7.3"
+  }
+}
